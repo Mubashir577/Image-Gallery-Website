@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Gallery Website</h1>
+        <section>
+            <p>Welcome to our Interactive Image Gallery, where stunning visuals come to life with just a click. This gallery features images from various categories, each designed to capture the essence of the subject. Navigate through thumbnails to explore larger versions, making your browsing experience both engaging and immersive.</p>
+        </section>
+    </header>
+    
+    <div class="gallery">
+        <div class="thumbnail">
+            <img src="images/image1_thumb.jpeg" alt="Image 1" onclick="showImage('images/image1.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image2_thumb.jpeg" alt="Image 2" onclick="showImage('images/image2.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image3_thumb.jpeg" alt="Image 3" onclick="showImage('images/image3.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image4_thumb.jpeg" alt="Image 4" onclick="showImage('images/image4.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image5_thumb.jpeg" alt="Image 5" onclick="showImage('images/image5.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image6_thumb.jpeg" alt="Image 6" onclick="showImage('images/image6.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image7_thumb.jpeg" alt="Image 7" onclick="showImage('images/image7.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image8_thumb.jpeg" alt="Image 8" onclick="showImage('images/image8.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image9_thumb.jpeg" alt="Image 9" onclick="showImage('images/image9.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image10_thumb.jpeg" alt="Image 10" onclick="showImage('images/image10.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image11_thumb.jpeg" alt="Image 11" onclick="showImage('images/image11.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image12_thumb.jpeg" alt="Image 12" onclick="showImage('images/image12.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image13_thumb.jpeg" alt="Image 13" onclick="showImage('images/image13.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image14_thumb.jpeg" alt="Image 14" onclick="showImage('images/image14.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image15_thumb.jpeg" alt="Image 15" onclick="showImage('images/image15.jpeg')">
+        </div>
+        <div class="thumbnail">
+            <img src="images/image16_thumb.jpeg" alt="Image 16" onclick="showImage('images/image16.jpeg')">
+        </div>
+        
+    </div>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="largeImage">
+    </div>
+    <footer>
+        <p>&copy; 2024 Interactive Gallery Website. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
